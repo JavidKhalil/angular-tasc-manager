@@ -35,9 +35,9 @@ animations: [
 
 export class HomeComponent implements OnInit {
 
-  itemCount: number = 4;
-  btnText: string = 'Add an Item';
-  goalText: string = 'My first life goal';
+  itemCount: number = 0;
+  btnText: string = 'Add a task';
+  goalText: string = 'My first life task';
   goals = [];
   
 constructor(private _data: DataService) { }

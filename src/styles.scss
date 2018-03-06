@@ -5,6 +5,8 @@ body {
     padding: 3em;
     font-family: 'Raleway', 'Arial';
     color:#fff;
+    background-image: url(assets/img/task.jpg);
+    background-position: top center;
 }
 ul {
     list-style-type:none;
@@ -21,4 +23,18 @@ ul li a {
 a {
     color:#fff;
     text-decoration:none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: cadetblue;
+}
+
+h3 {
+    text-align: center;
+    font-size: 2rem;
+    color: skyblue;
+    font-weight: bold;
+    
 }
